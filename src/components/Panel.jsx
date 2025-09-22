@@ -2,7 +2,7 @@ import React from 'react'
 
 const Panel = () => {
   return (
-    <div className="bg-gray-100 flex flex-wrap items-center justify-center gap-15 h-10 shadow-sm text-sm">
+    <div className="hidden sm:flex bg-gray-100  flex-wrap items-center justify-center gap-15 h-10 shadow-sm text-sm">
         <a href="#" className='text-lg'>1</a>
         <a href="#" className='text-lg'>2</a>
         <a href="#" className='text-lg bg-blue-400 w-10 h-full text-white flex items-center justify-center '>3</a>

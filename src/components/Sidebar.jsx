@@ -2,12 +2,12 @@ import React from 'react';
 
 const Sidebar = () => {
   return (
-    <div className="w-80 bg-white p-4 space-y-6">
+    <div className=" hidden sm:block w-80 bg-white p-4 space-y-6">
       
       <div className="bg-gray-100 rounded-lg  p-4">
-        <h3 className="text-xl font-semibold mb-3">Hot Deals</h3>
-        <ul className="space-y-1 text-sm">
-          <li className="flex justify-between hover:text-blue-500 mb-6">
+        <h3 className="text-xl font-semibold mb-6">Hot Deals</h3>
+        <ul className="space-y-1 text-lg">
+          <li className="flex justify-between hover:text-blue-500 mb-10">
             <span>Nike</span><span>2</span>
           </li>
           <li className="flex justify-between text-blue-500 mb-10">

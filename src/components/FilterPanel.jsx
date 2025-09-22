@@ -2,7 +2,7 @@ import React from 'react'
 
 const FilterPanel = () => {
   return (
-    <div className="bg-gray-100 flex flex-wrap items-center gap-15 p-4 shadow-sm text-sm">
+    <div className=" hidden md:flex  bg-gray-100   flex-wrap items-center gap-15 p-4 shadow-sm text-sm">
         <div className="flex items-center gap-2">
           <span className="font-medium text-lg text-gray-500">13 Items</span>
         </div>

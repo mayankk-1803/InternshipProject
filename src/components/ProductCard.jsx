@@ -3,7 +3,7 @@ import { Star } from 'lucide-react';
 
 const ProductCard = ({ tag, image, title, price, oldPrice, discount }) => {
   return (
-    <div className="bg-gray-100 rounded-lg shadow-sm hover:shadow-md transition  p-4 relative">
+    <div className="bg-gray-100 mx-4 sm:mx-0 rounded-lg shadow-sm hover:shadow-md transition  p-4 relative">
       
       {tag && (
         <div className="absolute top-0 left-0 bg-red-500 text-white text-xs px-2 py-1 rounded">
